@@ -1,6 +1,6 @@
-temprature = int(input("Enter the temprature to convert: "))
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
+temprature = int(input("Enter the temprature to convert: "))
 unit = input("Is this temprature in Celcius or Fafarenheit? (C/F): ")
 def convert_to_celsius(fahrenheit):
      temp_in_C = FAHRENHEIT_TO_CELSIUS_FACTOR*(temprature-32)
