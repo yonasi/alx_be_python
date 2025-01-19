@@ -1,9 +1,9 @@
 def safe_divide(numerator, denominator):
     try:
         
-         return float(numerator) / float(denominator)
-         print(f"The result of the divisionis {int(numerator) / int(denominator)}")
-        
+         float(numerator) / float(denominator)
+         message = f"The result of the divisionis {int(numerator) / int(denominator)}"
+         return message
     except ZeroDivisionError:
         message = "Error: Cannot divide by zero."
         return message
