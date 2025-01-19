@@ -2,7 +2,7 @@ def safe_divide(numerator, denominator):
     try:
         
          float(numerator) / float(denominator)
-         message = f"The result of the divisionis {int(numerator) / int(denominator)}"
+         message = f"The result of the division is {int(numerator) / int(denominator)}"
          return message
     except ZeroDivisionError:
         message = "Error: Cannot divide by zero."
