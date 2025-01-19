@@ -21,7 +21,7 @@ class Library:
     def add_book(self, book):
         self._books.append(book)
 
-    def check_out_book(self, title):
+    def check_out_book(self):
         for book in self._books:
             if book.title == title and book.is_available():
                 book.check_out()
