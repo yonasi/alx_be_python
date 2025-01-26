@@ -39,4 +39,4 @@ class Library:
             elif isinstance (book, Book):
                 print(f"BOOK: {book}")
             else:
-                print("wrong input")
+                print('This is an error message', file=sys. stderr)
