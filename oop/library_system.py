@@ -33,9 +33,9 @@ class Library:
     def list_books(self):
          for book in self.books:
             if isinstance (book, EBook):
-                 print(f"EBOOK: {book}")
+                 print(f"EBook: {book}")
             elif isinstance (book, PrintBook):
                  print(f"Printbook: {book}")
 
             else:
-                print(f"BOOK: {book}")
+                print(f"Book: {book}")
