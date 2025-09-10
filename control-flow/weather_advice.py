@@ -7,6 +7,10 @@ elif weather == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 elif weather == "snowy":
     print("Wear a heavy coat, gloves, and boots.")
+elif weather == "windy":
+    print("A windbreaker would be a good choice.")
+elif weather == "foggy":
+    print("Wear layers and be cautious while driving.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
 
